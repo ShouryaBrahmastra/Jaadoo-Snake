@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaadoo Snake</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Snake Game</title>
+    <style>
+        canvas {
+            display: block;
+            margin: 0 auto;
+        }
+
+        h1 {
+            border-block: 10px;
+            color: white;
+            text-align: center;
+            border: 1px solid #66CC00;
+            border-width: 50%;
+            border-radius: 20px;
+        }
+        .btn_cen{
+            align-content: center;
+        }
+        .button{
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+            padding: 20px 50px;
+            border: 3px solid #3c67e3;
+            border-radius: 10px;
+        }
+        .button:hover{
+            animation: pulsate 1s ease-in-out;
+        }
+        @keyframes pulsate {
+            0%{
+                box-shadow: 0 0 25px #5ddcff, 0 0 50 px #4e00c2;
+            }
+        }
+    </style>
+</head>
+<body>
+    <head>
+      
+    </head>
+    <canvas id="snake" width="608" height="608"></canvas>
+    
+    <body style="background-color: #05021b ">
+        <div class="btn_cen">
+            <a href="#" class="button" onClick="window.location.reload();">Restart</a>
+        </div>
+        
+    </body>
+    <script src="snake.js"></script>
+</body>
+</html>
