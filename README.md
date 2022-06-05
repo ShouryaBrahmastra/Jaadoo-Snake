@@ -5,4 +5,4 @@ This game is functional only on PC and other equivalent devices.
 
 # Development
 
-[Live Demo]() is available here.
+[Live Demo](https://shouryabrahmastra.github.io/Jaadoo-Snake/) is available here.
